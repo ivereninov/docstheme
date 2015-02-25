@@ -52,6 +52,7 @@ header hgroup{
 }
 nav.stickynav{
 	top:65px;
+	z-index: 5;
 }
 .wy-nav-content{
 	margin-top: 65px;
