@@ -127,6 +127,10 @@ nav.stickynav a:hover{
 .wy-menu-vertical li.current a{
 	background: #f2f1f0;
 	color: black;
+	border-right: none;
+}
+.wy-menu-vertical li.current a:hover{
+	background: #f2f1f0;
 }
 .wy-menu-vertical li.current>a{
 	background: #fafafa;
