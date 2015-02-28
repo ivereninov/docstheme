@@ -21,7 +21,7 @@ $( document ).ready(function() {
         $("html, body").animate({
                 scrollTop: $($(this).attr("href")).offset().top -75 + "px"
         }, {
-            duration: 1200,
+            duration: 120,
             easing: "swing"
         });
         return false;
