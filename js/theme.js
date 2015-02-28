@@ -16,6 +16,16 @@ $( document ).ready(function() {
     $("table.docutils:not(.field-list)").wrap("<div class='wy-table-responsive'></div>");
 
     hljs.initHighlightingOnLoad();
+
+    $(".wy-menu-vertical li.current a").click(function() {
+        $("html, body").animate({
+                scrollTop: $($(this).attr("href")).offset().top -75 + "px"
+        }, {
+            duration: 1200,
+            easing: "swing"
+        });
+        return false;
+    });
 });
 
 window.SphinxRtdTheme = (function (jquery) {
